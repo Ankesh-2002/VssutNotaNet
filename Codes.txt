@@ -1,0 +1,52 @@
+Hide Code Content In Webpage
+
+<article style="display: none;">This text will not be visible</article> 
+
+
+Criclive Card Code
+
+					<!-- Card Start -->
+
+					<article class="card">
+						<a href="#">
+							<picture class="thumbnail">
+								<img  class="center" src="image/Logo_vssut.png">
+							</picture>
+							<div align="center" class="card-content">
+								<h2>VSSUT Notes Archive</h2>
+								<p>All In One 1st Year Notes</p>
+								<!-- Button HTML (to Trigger Modal) -->
+								<a href="#myModal2" class="w3-btn w3-round-xxlarge w3-blue" data-toggle="modal">View</a>
+								
+								<!-- Modal HTML -->
+								<div id="myModal2" class="modal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">All In One 1st Year Notes</h5>
+											<button type="button" class="close" data-dismiss="modal">&times;</button> 
+											</div>
+											<div class="modal-body">
+											
+												<p><!-- Space Added --></p>
+												
+												<!-- Add Page Links Here -->
+												
+												<form target="_blank"><p><button formaction="link.html" class="w3-btn w3-round-xxlarge w3-blue">BE</button></p></form>
+												
+												<form target="_blank"><p><button formaction="link.html" class="w3-btn w3-round-xxlarge w3-blue">BCE</button></p></form>
+												
+												<!-- Add Page Links Here -->
+												
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- .card-content -->
+						</a>
+					</article>
+					
+					<!-- Card End -->
